@@ -9,6 +9,7 @@ esphome:
       # - switch.turn_off: dallas_power
       # - delay: 20s
       - switch.turn_on: dallas_power
+# Modified to display Fahrenheit on the OLED all interal maths are still Centigrade
 
 substitutions:
   room: Kitchen # **** Change Room Name Here ****
