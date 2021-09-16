@@ -1,5 +1,7 @@
 # ESPHome Thermostat Project V3
 
+Modified by Erica Pelz to display in fahrenheit.
+
 Use the "**Code**" button above "**Download ZIP**" to get everything you need.
 
 ![image](https://user-images.githubusercontent.com/51385971/118730655-e501b480-b82f-11eb-8e3b-8b7ea86f9e68.png)
@@ -10,6 +12,8 @@ Use the "**Code**" button above "**Download ZIP**" to get everything you need.
 
 # Please Be Aware:
 _Depending on the supply, SOME OLED displays have the VCC & GND (0v) pins reversed - Be sure to check and adjust your build accordingly._
+
+Please support the original author below:
 
 # Watch the full tutorial here: https://youtu.be/RorDXsYIrnQ
 
