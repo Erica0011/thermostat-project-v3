@@ -13,7 +13,7 @@ Use the "**Code**" button above "**Download ZIP**" to get everything you need.
 # Please Be Aware:
 _Depending on the supply, SOME OLED displays have the VCC & GND (0v) pins reversed - Be sure to check and adjust your build accordingly._
 
-Please support the original author below:
+# Please support the original author below:
 
 # Watch the full tutorial here: https://youtu.be/RorDXsYIrnQ
 
