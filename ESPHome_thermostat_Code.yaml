@@ -206,9 +206,9 @@ display:
       else if (id(cool).state) {id(ani_fan).next_frame(); it.image(0, 0, id(ani_fan));}
       else {it.image(0, 0, id(home_thermometer));}
       it.print(64, 0,  id(font1), TextAlign::TOP_CENTER, "${room}");
-      it.printf(64, 4, id(font2), TextAlign::TOP_CENTER, " %.1f°", id(internal_temperature).state);
-      it.printf(0, 64, id(font3), TextAlign::BASELINE_LEFT, "L:%.1f°", id(this_thermostat).target_temperature_low);
-      it.printf(128, 64, id(font3), TextAlign::BASELINE_RIGHT, "H:%.1f°", id(this_thermostat).target_temperature_high);
+      it.printf(64, 4, id(font2), TextAlign::TOP_CENTER, " %.1f°", id(internal_temperature).state * (9.0/5.0) + 32.0);
+      it.printf(0, 64, id(font3), TextAlign::BASELINE_LEFT, "L:%.1f°", id(this_thermostat).target_temperature_low * (9.0/5.0) + 32.0);
+      it.printf(128, 64, id(font3), TextAlign::BASELINE_RIGHT, "H:%.1f°", id(this_thermostat).target_temperature_high * (9.0/5.0) + 32.0);
 
       if (id(brightness).state) {it.image(56, 51, id(bulb));} 
       else if (id(heat_cool).state) {it.image(56, 51, id(arrow_right));}
